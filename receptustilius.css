@@ -1,0 +1,45 @@
+body
+{
+    background-color: #ffccff;
+    margin: 50px;
+}
+.klase1
+{
+    color: #4d004d;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.klase2
+{
+    color: #1a001a;
+}
+#vardaspavarde
+{
+    color: #4d004d;
+    text-align: right;
+}
+.nuotraukytes
+{
+    height: 200pt;
+}
+.pirmaeilute
+{
+    text-align: center;
+    font-size: 120%;
+}
+
+.pirmaeilute td
+{
+    border: 5px solid black;
+    border-collapse:collapse;
+}
+
+table
+{
+    margin: auto;
+}
+a
+{
+    color: black;
+}
