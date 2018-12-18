@@ -9,4 +9,6 @@ div
 {
     height: 100px;
     background-color: #d633ff;
+    float: left;
+    width: 300px;
 }
