@@ -1,6 +1,6 @@
 div
 {
-  color: #ffccff;
+  background-color: #ffccff;
   height: 300px;
   width: 900px;
   margin: center;
@@ -11,4 +11,23 @@ div
     background-color: #d633ff;
     float: left;
     width: 300px;
+}
+.naujasdarbas
+{
+  background-color: #ffccff;
+  height: 300px;
+  width: 900px;
+  margin: center;
+}
+.naujodezute1
+{
+  background-color: #d633ff;
+  float: bottom;
+  height: 200px;
+}
+.naujodezute2
+{
+  background-color: #d633ff;
+  float: bottom;
+  height: 100px;
 }
