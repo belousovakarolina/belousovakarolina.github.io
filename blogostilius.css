@@ -1,0 +1,45 @@
+h1
+{
+    text-align: center;
+    color: #1a001a;
+}
+h2
+{
+    text-align: center;
+    color: #1a001a;
+}
+h3
+{
+    text-align: center;
+    color: #1a001a;
+}
+p
+{
+    text-align: left;
+    color: #1a001a;
+}
+body
+{
+    background-color: #ffccff;
+}
+a
+{
+    color: #4d004d;
+    text-align: right;
+}
+.straipsnis
+{
+    
+}
+.nuorodos
+{
+    text-decoration: none;
+}
+.paprastas
+{
+    text-align: left;
+}
+.data
+{
+    text-align: right;
+}
