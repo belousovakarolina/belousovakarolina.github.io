@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sudėties ir daugybos užduotys antrokams</title>
+        <style>
+            body
+            {
+                background-color: #ffcccc;
+            }
+            h1
+            {
+                text-align: center;
+                color: #ff4d4d;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            p
+            {
+                color: #ff4d4d;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            button
+            {
+                background-color: #ff8080;
+                color: #cc0000;
+            }
+            input
+            {
+                background-color: #ffe6e6;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mokomės sudėties ir daugybos</h1>
+        <p>Tėja turi 36 eurus. Senelis jai davė dar 55. Kiek eurų dabar turi Tėja?</p>
+        <button>Bandyta kartų:</button>
+        <button id="bandymai1">0</button>
+        <input id="inputas1">
+        <button onclick=funkcija1()>Patikrinti</button>
+        <p>Pagrindinė mokykla, pasitikdama Naujuosius metus, į šventę pakvietė 3 klases po 6 mokinius. Kiek mokinių susirinko?</p>
+        <button>Bandyta kartų:</button>
+        <button id="bandymai2">0</button>
+        <input id="inputas2">
+        <button onclick=funkcija2()>Patikrinti</button>
+        <p>Andrius turi 8 monetas, o Rasa 13 monetų. Kiek monetų jie turi drauge?</p>
+        <button>Bandyta kartų:</button>
+        <button id="bandymai3">0</button>
+        <input id="inputas3">
+        <button onclick=funkcija3()>Patikrinti</button>
+        <P>Vienas paukštelis turi 2 sparnelius. Kiek sparnelių turi 5 paukšteliai?</P>
+        <button>Bandyta kartų:</button>
+        <button id="bandymai4">0</button>
+        <input id="inputas4">
+        <button onclick=funkcija4()>Patikrinti</button>
+        <p>Vienas kamuoliukas sveria 4 gramus. Kiek gramų sveria 3 kamuoliukai?</p>
+        <button>Bandyta kartų:</button>
+        <button id="bandymai5">0</button>
+        <input id="inputas5">
+        <button onclick=funkcija5()>Patikrinti</button>
+        <p></p>
+        <button>Viso bandyta kartų:</button>
+        <button id="bandymai">0</button>
+        <p></p>
+        <button>Viso surinkta taškų:</button>
+        <button id="kartai">0</button>
+        <script>
+            function funkcija1()
+            {
+                var ad=document.getElementById("kartai").innerHTML;
+                var ae=Number(ad)+1;
+                var a=document.getElementById("inputas1").value;
+                if (a==91)
+                {
+                    alert("Puiku!");
+                    document.getElementById("kartai").innerHTML=ae;
+                } 
+                else alert("Bandyk dar kartą");
+                var b=document.getElementById("bandymai1").innerHTML;
+                var c=Number(b)+1;
+                document.getElementById("bandymai1").innerHTML=c;
+                var p=document.getElementById("bandymai").innerHTML;
+                var r=Number(p)+1;
+                document.getElementById("bandymai").innerHTML=r; 
+            }         
+            function funkcija2()
+            {
+                var af=document.getElementById("kartai").innerHTML;
+                var ag=Number(af)+1;
+                var d=document.getElementById("inputas2").value;
+                if (d==18) 
+                {
+                    alert("Puiku!");
+                    document.getElementById("kartai").innerHTML=ag;
+                } 
+                else alert("Bandyk dar kartą");
+                var e=document.getElementById("bandymai2").innerHTML;
+                var f=Number(e)+1;
+                document.getElementById("bandymai2").innerHTML=f;
+                var z=document.getElementById("bandymai").innerHTML;
+                var s=Number(z)+1;
+                document.getElementById("bandymai").innerHTML=s;
+            } 
+            function funkcija3()
+            {
+                var ah=document.getElementById("kartai").innerHTML;
+                var ai=Number(ah)+1;
+                var g=document.getElementById("inputas3").value;
+                if (g==21) 
+                {
+                    alert("Puiku!");
+                    document.getElementById("kartai").innerHTML=ai;
+                } 
+                else alert("Bandyk dar kartą");
+                var h=document.getElementById("bandymai3").innerHTML;
+                var i=Number(h)+1;
+                document.getElementById("bandymai3").innerHTML=i;
+                var aa=document.getElementById("bandymai").innerHTML;
+                var t=Number(aa)+1;
+                document.getElementById("bandymai").innerHTML=t;
+            }  
+            function funkcija4()
+            {
+                var aj=document.getElementById("kartai").innerHTML;
+                var ak=Number(aj)+1;
+                var j=document.getElementById("inputas4").value;
+                if (j==10) 
+                {
+                    alert("Puiku!");
+                    document.getElementById("kartai").innerHTML=ak;
+                } 
+                else alert("Bandyk dar kartą");
+                var k=document.getElementById("bandymai4").innerHTML;
+                var l=Number(k)+1;
+                document.getElementById("bandymai4").innerHTML=l;
+                var ab=document.getElementById("bandymai").innerHTML;
+                var u=Number(ab)+1;
+                document.getElementById("bandymai").innerHTML=u;
+            }                 
+            function funkcija5()
+            {
+                var al=document.getElementById("kartai").innerHTML;
+                var am=Number(al)+1;
+                var m=document.getElementById("inputas5").value;
+                if (m==12) 
+                {
+                    alert("Puiku!");
+                    document.getElementById("kartai").innerHTML=am;
+                } 
+                else alert("Bandyk dar kartą");
+                var n=document.getElementById("bandymai5").innerHTML;
+                var o=Number(n)+1;
+                document.getElementById("bandymai5").innerHTML=o;
+                var ac=document.getElementById("bandymai").innerHTML;
+                var v=Number(ac)+1;
+                document.getElementById("bandymai").innerHTML=v;
+            }  
+        </script>
+    </body>
+</html>
